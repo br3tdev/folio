@@ -20,7 +20,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
-      <div className="h-full max-h-[820px] hidden lg:flex items-center justify-center bg-primary-foreground">
+      <div className="h-full max-h-screen hidden lg:flex items-center justify-center bg-primary-foreground">
         <div className="h-full w-full">
           <img
             src={"/peakpx.jpg"}
@@ -31,7 +31,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="h-full lg:flex flex-col items-center justify-center px-4">
+      <div className="h-full lg:flex flex-col items-center justify-center px-4 -mt-8">
         <div className="text-center space-y-4 pt-16">
           <Icons.logo className="mx-auto size-10 text-card-foreground" />
         </div>
