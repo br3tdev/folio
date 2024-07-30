@@ -30,7 +30,7 @@ export default function Page() {
           />
         </div>
       </div>
-
+      {/* // TODO: make sure layout matches */}
       <div className="h-full lg:flex flex-col items-center justify-center px-4 -mt-8">
         <div className="text-center space-y-4 pt-16">
           <Icons.logo className="mx-auto size-10 text-card-foreground" />
