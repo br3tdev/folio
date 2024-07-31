@@ -5,5 +5,5 @@ export interface IOnboardingLayoutProps {
 }
 
 export default function OnboardingLayout({ children }: IOnboardingLayoutProps) {
-  return <div>{children}</div>;
+  return <div className="h-full">{children}</div>;
 }

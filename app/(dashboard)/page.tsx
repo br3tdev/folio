@@ -17,7 +17,7 @@ export default function DashboardPage(props: IDashboardPageProps) {
             <h3 className="font-bold text-2xl text-foreground">
               You have not mediakits
             </h3>
-            <div className="flex flex-col items-center justify-center space-y-4">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <p className="text-sm text-muted-foreground">
                 You can start sharing your media kit as soon as you add a
                 profile.
